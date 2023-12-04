@@ -712,8 +712,25 @@
           <!----------  Privacy Policy  ----------->
 
           <div class="priv-policy">
-            <input type="checkbox" id="user-privacy" value="true"  name="user-privacy" class="privacy-check visually-hidden"/>
+            <input
+              type="checkbox"
+              id="user-privacy"
+              value="true"
+              name="user-privacy"
+              class="privacy-check visually-hidden"
+            />
+            <label for="user-privacy" class="privacy-label">
+              <span class="ok-span">
+                <svg class="ok-icon" width="10" height="8">
+                  <use href="./images/icons.svg#icon-ok"></use>
+                </svg>
+              </span>
+              I accept the terms and conditions of the
+              <a href="" class="priv-policy-link">Privacy Policy</a>
+            </label>
           </div>
+
+          <button type="submit" class="modal-send-btn">Send</button>
         </form>
       </div>
     </div>
