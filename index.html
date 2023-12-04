@@ -598,7 +598,12 @@
           <p class="subscribe">Subscribe</p>
           <form class="end-form">
             <label class="end-form-lab">
-              <input class="email-inp" type="email" name="email" placeholder="E-mail" />
+              <input
+                class="email-inp"
+                type="email"
+                name="email"
+                placeholder="E-mail"
+              />
             </label>
 
             <button type="submit" class="submit-btn">
@@ -631,17 +636,24 @@
           </svg>
         </button>
 
-        <p class="form-header"> Leave your contacts and we will call you back</p>
+        <p class="form-header">Leave your contacts and we will call you back</p>
 
-        <form >
+        <form>
           <div class="backdrop-form">
             <label class="bcd-f-label" for="user-name"> Name</label>
             <div class="user-inf">
-              <input type="text" id="user-name" name="user-name" class="user-inf-field">
-              <svg class="modal-info-icon"
-              width="18"
-              heidght="24"
-              aria-label="person icon">
+              <input
+                type="text"
+                id="user-name"
+                name="user-name"
+                class="user-inf-field"
+              />
+              <svg
+                class="modal-info-icon"
+                width="18"
+                heidght="24"
+                aria-label="person icon"
+              >
                 <use href="./images/icons.svg#icon-person"></use>
               </svg>
             </div>
@@ -650,8 +662,18 @@
           <div class="backdrop-form">
             <label class="bcd-f-label" for="user-name"> Phone</label>
             <div class="user-inf">
-              <input type="text" id="user-name" name="user-name" class="user-inf-field">
-              <svg class="modal-info-icon" width="18" heidght="24" aria-label="phone icon">
+              <input
+                type="text"
+                id="user-name"
+                name="user-name"
+                class="user-inf-field"
+              />
+              <svg
+                class="modal-info-icon"
+                width="18"
+                heidght="24"
+                aria-label="phone icon"
+              >
                 <use href="./images/icons.svg#icon-phone"></use>
               </svg>
             </div>
@@ -660,22 +682,40 @@
           <div class="backdrop-form">
             <label class="bcd-f-label" for="user-name"> Email</label>
             <div class="user-inf">
-              <input type="text" id="user-name" name="user-name" class="user-inf-field">
-              <svg class="modal-info-icon" width="18" heidght="24" aria-label="mail icon">
+              <input
+                type="text"
+                id="user-name"
+                name="user-name"
+                class="user-inf-field"
+              />
+              <svg
+                class="modal-info-icon"
+                width="18"
+                heidght="24"
+                aria-label="mail icon"
+              >
                 <use href="./images/icons.svg#icon-mail"></use>
               </svg>
             </div>
           </div>
 
           <div class="backdrop-form">
-            <label class="bcd-f-label" for="user-name"> Comment</label>
-            <div class="user-inf">
-              <input type="text" id="user-name" name="user-name" class="user-inf-field" placeholder="Text input">
-            </div>
+            <label class="bcd-f-label" for="user-comment"> Comment</label>
+            <textarea
+              id="user-comment"
+              name="user-comment"
+              placeholder="Text input"
+              class="comment"
+            ></textarea>
+          </div>
+
+          <!----------  Privacy Policy  ----------->
+
+          <div class="priv-policy">
+            <input type="checkbox" id="user-privacy" value="true"  name="user-privacy" class="privacy-check visually-hidden"/>
           </div>
         </form>
       </div>
-
     </div>
   </body>
 </html>
