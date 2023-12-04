@@ -558,6 +558,10 @@ footer {
 }
 
 .backdrop-form {
+  margin-bottom: 8px;
+}
+
+.backdrop-form-last{
   margin-bottom: 16px;
 }
 
@@ -662,7 +666,7 @@ footer {
   display: block;
   min-width: 169px;
   height: 56px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
